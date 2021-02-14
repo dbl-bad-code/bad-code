@@ -97,7 +97,7 @@ client.on('message', message => {
 if (!message.guild) return;
 if (message.content.startsWith(`${prefix}botinfo`)) {
 message.channel.send({embed: {
-color: 3447003
+color: 3447003,
 author: {
 name: client.user.username,
 icon_url: client.user.avatarURL
@@ -111,5 +111,7 @@ description: "Yellow Hat bot website",
 fields: [{
  name: "Yellow Hat Bot, version 1.0.0",
 value: "Yellow Hat is a bot created by DV54321#0385"
-},
+}],
+}})
+}})
 client.login(token);

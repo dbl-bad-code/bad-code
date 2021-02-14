@@ -1,0 +1,8 @@
+let rw = Math.floor(Math.random() * 100)
+                      if(rw === 1 || rw === 0) {
+                        message.channel.send('dude your luck man u just got like a SUPER rare pickaxe wow... im wowed')
+                        db.add(`vortexpick_${messgae.author.id}`, 1)
+                      }
+                      if(rw === 2 || rw === 3 || rw === 4 || rw === 5 || rw === 6 || rw === 7 || rw === 8 || rw === 9 || rw === 10 || rw === 11 || rw === 12 || rw === 13 || rw === 14 || rw === 15 || rw === 16 || rw === 17 || rw === 18 || rw === 19 || rw === 20 || rw === 21 || rw === 22 || rw === 23 || rw === 24 || rw === 25 || rw === 26 || rw === 27 || rw === 28 || rw === 29 || rw === 30 || rw === 31 || rw === 32 || rw === 33 || rw === 34 || rw === 35 || rw === 36 || rw === 37 || rw === 38 || rw === 39 || rw === 40 || rw === 41 || rw === 42 || rw === 43 || rw === 44 || rw === 45 || rw === 46 || rw === 47 || rw === 49 || rw === 50 || rw === 51 || rw === 52 || rw === 53 || rw === 54 || rw === 55 || rw === 56 || rw === 57 || rw === 58 || rw === 59 || rw === 60 || rw === 61 || rw === 62 || rw === 63 || rw === 64 || rw === 65 || rw === 66 || rw === 67 || rw === 68 || rw === 69 || rw === 70 || rw === 71 || rw === 72 || rw === 73 || rw === 74 || rw === 75 || rw === 75 || rw === 77 || rw === 78 || rw === 79 || rw === 80 || rw === 81 || rw === 82 || rw === 83 || rw === 84 || rw === 85 || rw === 86 || rw === 87 || rw === 88 || rw === 89 || rw === 90 || rw === 91 || rw === 92 || rw === 93 || rw === 94 || rw === 95 || rw === 96 || rw === 97 || rw === 98 || rw === 99 || rw === 100) {
+message.channel.send('you didnt get anything')
+}
