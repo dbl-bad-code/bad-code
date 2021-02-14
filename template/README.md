@@ -1,3 +1,3 @@
 # Bad code
 ---
-This bad code is intended to [purpose] and is written in [language]
+This bad code is intended to do nothing and is written in js
